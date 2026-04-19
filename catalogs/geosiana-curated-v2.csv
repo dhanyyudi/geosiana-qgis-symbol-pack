@@ -1,0 +1,48 @@
+category,name,font_stem,codepoint_hex,svg_file,tags,notes
+batas-administrasi,Batas Administrasi - Kotak Bertitik,geosiana-marker_default,U+004B,svg/geosiana-marker_default/u004B-k.svg,"batas-administrasi, garis-batas, marker-line, untuk-line",Dekorator marker line untuk batas administrasi.
+batas-administrasi,Batas Administrasi - Kotak Outline,geosiana-marker_default,U+004E,svg/geosiana-marker_default/u004E-n.svg,"batas-administrasi, garis-batas, marker-line, untuk-line",Varian outline untuk batas administrasi.
+batas-administrasi,Batas Administrasi - Diamond Outline,geosiana-marker_default,U+0055,svg/geosiana-marker_default/u0055-u.svg,"batas-administrasi, garis-batas, marker-line, untuk-line",Varian diamond untuk batas administrasi.
+jalan,Jalan - Chevron Tipis,geosiana-marker_default,U+007D,svg/geosiana-marker_default/u007D-braceright.svg,"jalan, arah, marker-line, untuk-line",Dekorator arah untuk jalan atau sungai.
+jalan,Jalan - Chevron Tebal,geosiana-marker_default,U+007E,svg/geosiana-marker_default/u007E-asciitilde.svg,"jalan, arah, marker-line, untuk-line",Varian chevron tebal.
+jalan,Jalan - Batang Vertikal,geosiana-marker_default,U+0079,svg/geosiana-marker_default/u0079-y.svg,"jalan, separator, marker-line, untuk-line",Dekorator garis jalan.
+hidrologi,Hidrologi - Tetes Air Solid,geosiana-marker_default,U+0039,svg/geosiana-marker_default/u0039-nine.svg,"hidrologi, air, untuk-point, untuk-polygon",Ikon sumber air.
+hidrologi,Hidrologi - Tetes Air Hollow,geosiana-marker_default,U+003D,svg/geosiana-marker_default/u003D-equal.svg,"hidrologi, air, untuk-point, untuk-polygon",Varian hollow untuk sumber air.
+hidrologi,Fauna - Ikan,geosiana-marker_animal,U+0021,svg/geosiana-marker_animal/u0021-exclam.svg,"hidrologi, fauna-air, untuk-point",Ikon ikan dari set animal.
+permukiman,Permukiman - Rumah Outline,geosiana-marker_extra,U+0021,svg/geosiana-marker_extra/u0021-exclam.svg,"permukiman, bangunan, untuk-point",Rumah outline.
+permukiman,Permukiman - Rumah Solid,geosiana-marker_extra,U+0025,svg/geosiana-marker_extra/u0025-percent.svg,"permukiman, bangunan, untuk-point",Rumah solid.
+permukiman,Industri - Pabrik,geosiana-marker_extra,U+0027,svg/geosiana-marker_extra/u0027-quotesingle.svg,"permukiman, industri, bangunan, untuk-point",Bangunan pabrik.
+fasilitas-umum,Fasilitas Umum - Pemerintahan,geosiana-marker_extra,U+0026,svg/geosiana-marker_extra/u0026-ampersand.svg,"fasilitas-umum, pemerintahan, bangunan, untuk-point",Gedung pemerintahan umum.
+fasilitas-umum,Fasilitas Umum - Masjid,geosiana-marker_default,U+00DF,svg/geosiana-marker_default/u00DF-germandbls.svg,"fasilitas-umum, ibadah, islam, untuk-point",Nama disesuaikan dari contoh pengguna dan legenda LapakGIS.
+fasilitas-umum,Fasilitas Umum - Mushola,geosiana-marker_default,U+00E0,svg/geosiana-marker_default/u00E0-agrave.svg,"fasilitas-umum, ibadah, islam, untuk-point",Varian simbol ibadah Islam.
+fasilitas-umum,Fasilitas Umum - Gereja,geosiana-marker_default,U+00E2,svg/geosiana-marker_default/u00E2-acircumflex.svg,"fasilitas-umum, ibadah, kristen, untuk-point",Simbol gereja.
+fasilitas-umum,Fasilitas Umum - Pura,geosiana-marker_default,U+00E3,svg/geosiana-marker_default/u00E3-atilde.svg,"fasilitas-umum, ibadah, hindu, untuk-point",Simbol pura.
+fasilitas-umum,Fasilitas Umum - Vihara / Klenteng,geosiana-marker_default,U+00E4,svg/geosiana-marker_default/u00E4-adieresis.svg,"fasilitas-umum, ibadah, buddha, untuk-point",Simbol rumah ibadah Buddha/Tionghoa.
+fasilitas-umum,Fasilitas Umum - Kantor Pemerintah / Dinas,geosiana-marker_default,U+00E5,svg/geosiana-marker_default/u00E5-aring.svg,"fasilitas-umum, pemerintahan, kantor, untuk-point",Bangunan kantor pemerintahan umum.
+fasilitas-umum,Fasilitas Umum - Kantor Gubernur,geosiana-marker_default,U+00E9,svg/geosiana-marker_default/u00E9-eacute.svg,"fasilitas-umum, pemerintahan, gubernur, untuk-point",Bangunan kantor gubernur.
+fasilitas-umum,Fasilitas Umum - Kantor Bupati,geosiana-marker_default,U+00EA,svg/geosiana-marker_default/u00EA-ecircumflex.svg,"fasilitas-umum, pemerintahan, bupati, untuk-point",Bangunan kantor bupati.
+fasilitas-umum,Fasilitas Umum - Kantor Wali Kota,geosiana-marker_default,U+00EB,svg/geosiana-marker_default/u00EB-edieresis.svg,"fasilitas-umum, pemerintahan, walikota, untuk-point",Huruf W pada ikon dipakai sebagai wali kota.
+fasilitas-umum,Fasilitas Umum - Kantor Camat,geosiana-marker_default,U+00EC,svg/geosiana-marker_default/u00EC-igrave.svg,"fasilitas-umum, pemerintahan, camat, untuk-point",Bangunan kantor camat.
+fasilitas-umum,Fasilitas Umum - Kantor Lurah,geosiana-marker_default,U+00ED,svg/geosiana-marker_default/u00ED-iacute.svg,"fasilitas-umum, pemerintahan, lurah, untuk-point",Bangunan kantor lurah.
+fasilitas-umum,Fasilitas Umum - Kantor Desa,geosiana-marker_default,U+00EE,svg/geosiana-marker_default/u00EE-icircumflex.svg,"fasilitas-umum, pemerintahan, desa, untuk-point",Bangunan kantor desa.
+fasilitas-umum,Fasilitas Umum - Kamera,geosiana-marker_extra,U+0032,svg/geosiana-marker_extra/u0032-two.svg,"fasilitas-umum, kamera, dokumentasi, untuk-point",Ikon kamera.
+fasilitas-umum,Fasilitas Umum - Kantor Pos,geosiana-marker_extra,U+0041,svg/geosiana-marker_extra/u0041-a.svg,"fasilitas-umum, komunikasi, kantor-pos, untuk-point",Ikon amplop.
+fasilitas-umum,Fasilitas Umum - Perpustakaan,geosiana-marker_extra,U+0042,svg/geosiana-marker_extra/u0042-b.svg,"fasilitas-umum, pendidikan, perpustakaan, untuk-point",Buku terbuka.
+fasilitas-umum,Fasilitas Umum - Pendidikan Tinggi,geosiana-marker_extra,U+0044,svg/geosiana-marker_extra/u0044-d.svg,"fasilitas-umum, pendidikan, sekolah, untuk-point",Topi wisuda.
+fasilitas-umum,Fasilitas Umum - Timbangan,geosiana-marker_extra,U+0040,svg/geosiana-marker_extra/u0040-at.svg,"fasilitas-umum, layanan, timbangan, untuk-point",Ikon timbangan.
+fasilitas-umum,Fasilitas Umum - MCK / Toilet,geosiana-marker_extra,U+0062,svg/geosiana-marker_extra/u0062-b.svg,"fasilitas-umum, mck, toilet, untuk-point",Ikon laki-laki/perempuan.
+fasilitas-umum,Fasilitas Umum - Hotel / Motel / Hostel,geosiana-marker_extra,U+0069,svg/geosiana-marker_extra/u0069-i.svg,"fasilitas-umum, hotel, penginapan, untuk-point",Ikon ranjang.
+transportasi,Transportasi - Bus,geosiana-marker_extra,U+0051,svg/geosiana-marker_extra/u0051-q.svg,"transportasi, jalan, bus, untuk-point",Ikon bus samping.
+transportasi,Transportasi - Angkutan / Terminal,geosiana-marker_extra,U+0052,svg/geosiana-marker_extra/u0052-r.svg,"transportasi, jalan, angkutan, untuk-point",Ikon kendaraan penumpang.
+transportasi,Transportasi - Truk,geosiana-marker_extra,U+0053,svg/geosiana-marker_extra/u0053-s.svg,"transportasi, jalan, logistik, untuk-point",Ikon truk.
+transportasi,Transportasi - Stasiun Kereta Api,geosiana-marker_extra,U+0055,svg/geosiana-marker_extra/u0055-u.svg,"transportasi, rel, kereta, untuk-point",Ikon kereta/stasiun.
+transportasi,Transportasi - Bandara,geosiana-marker_extra,U+005C,svg/geosiana-marker_extra/u005C-backslash.svg,"transportasi, udara, bandara, untuk-point",Ikon pesawat.
+utilitas,Utilitas - SPBU,geosiana-marker_extra,U+004F,svg/geosiana-marker_extra/u004F-o.svg,"utilitas, bbm, energi, untuk-point",Pompa BBM.
+utilitas,Utilitas - Target Hollow,geosiana-marker_default,U+0029,svg/geosiana-marker_default/u0029-parenright.svg,"utilitas, jaringan, marker-line, untuk-line",Dekorator ritmis untuk line symbol utilitas.
+vegetasi,Vegetasi - Konifer,geosiana-marker_forestry,U+0042,svg/geosiana-marker_forestry/u0042-b.svg,"vegetasi, pohon, untuk-point, untuk-polygon",Pohon tinggi.
+vegetasi,Vegetasi - Pohon Bulat,geosiana-marker_forestry,U+0043,svg/geosiana-marker_forestry/u0043-c.svg,"vegetasi, pohon, untuk-point, untuk-polygon",Pohon bundar.
+vegetasi,Vegetasi - Daun,geosiana-marker_forestry,U+0055,svg/geosiana-marker_forestry/u0055-u.svg,"vegetasi, daun, untuk-point, untuk-polygon",Ikon daun.
+vegetasi,Vegetasi - Pohon Gugur,geosiana-marker_forestry,U+0056,svg/geosiana-marker_forestry/u0056-v.svg,"vegetasi, pohon, untuk-point, untuk-polygon",Pohon tanpa daun.
+vegetasi,Vegetasi - Flora Air / Lotus,geosiana-marker_forestry,U+0058,svg/geosiana-marker_forestry/u0058-x.svg,"vegetasi, air, flora, untuk-point, untuk-polygon",Ikon flora air.
+fauna,Fauna - Burung,geosiana-marker_animal,U+0041,svg/geosiana-marker_animal/u0041-a.svg,"fauna, burung, untuk-point",Ikon burung.
+fauna,Fauna - Kupu-Kupu,geosiana-marker_animal,U+004F,svg/geosiana-marker_animal/u004F-o.svg,"fauna, serangga, untuk-point",Ikon kupu-kupu.
+fauna,Fauna - Rusa,geosiana-marker_animal,U+0047,svg/geosiana-marker_animal/u0047-g.svg,"fauna, mamalia, untuk-point",Ikon rusa.

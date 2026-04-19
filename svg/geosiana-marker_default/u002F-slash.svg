@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1624.00 1624.00">
+  <g transform="translate(112.00,1312.00) scale(1,-1)">
+    <path d="M416 930H452Q660 930 808 714Q864 602 864 502Q864 292 680 146H1392Q1400 145 1400 138V78Q1400 70 1392 70H416Q185 70 44 306Q0 398 0 486V514Q0 755 248 890Q327 930 416 930ZM76 502Q76 272 316 166Q374 150 428 146Q654 146 760 374Q784 436 784 498V502Q784 735 536 838Q479 850 432 854Q202 854 96 614Q81 557 76 502Z" fill="param(fill) #111111" fill-opacity="param(fill-opacity) 1" stroke="param(outline) none" stroke-opacity="param(outline-opacity) 1" stroke-width="param(outline-width) 0" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "point-camera",
+    "title": "Point",
+    "description": "Kamera/foto sebagai marker titik tunggal.",
+    "font_stem": "geosiana-marker_extra",
+    "codepoint_hex": "U+0032",
+    "svg_file": "svg/geosiana-marker_extra/u0032-two.svg",
+    "html_svg_file": "svg/geosiana-marker_extra/u0032-two.svg",
+    "qgis_usage": "Gunakan sebagai SVG marker langsung pada layer titik.",
+    "notes": "Cocok untuk POI, lokasi dokumentasi, atau titik fasilitas."
+  },
+  {
+    "slug": "line-chevron",
+    "title": "Line",
+    "description": "Chevron sebagai marker berulang mengikuti arah garis.",
+    "font_stem": "geosiana-marker_default",
+    "codepoint_hex": "U+007D",
+    "svg_file": "svg/geosiana-marker_default/u007D-braceright.svg",
+    "html_svg_file": "svg/geosiana-marker_default/u007D-braceright.svg",
+    "qgis_usage": "Gunakan pada Marker line, aktifkan rotate marker to follow line direction.",
+    "notes": "Cocok untuk sungai, arus, jalur evakuasi, atau arah sirkulasi."
+  },
+  {
+    "slug": "polygon-tree",
+    "title": "Polygon",
+    "description": "Pohon sebagai pola isi area.",
+    "font_stem": "geosiana-marker_forestry",
+    "codepoint_hex": "U+0042",
+    "svg_file": "svg/geosiana-marker_forestry/u0042-b.svg",
+    "html_svg_file": "svg/geosiana-marker_forestry/u0042-b.svg",
+    "qgis_usage": "Gunakan pada SVG fill atau Point pattern fill untuk polygon.",
+    "notes": "Cocok untuk kawasan vegetasi, ruang terbuka hijau, atau area tematik."
+  }
+]

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geosiana QGIS Pack V2 Test Cases</title>
+  <style>
+    :root {
+      --bg: #f7f4ee;
+      --card: #ffffff;
+      --ink: #1d1d1f;
+      --muted: #666;
+      --grid: #ddd5c6;
+      --accent: #0f5f94;
+      --green: #2d7e4d;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: "Avenir Next", "Segoe UI", sans-serif; background: linear-gradient(180deg, #fbf9f4, var(--bg)); color: var(--ink); }
+    main { max-width: 1120px; margin: 0 auto; padding: 48px 24px 64px; }
+    h1 { margin: 0 0 8px; font-size: 2.35rem; letter-spacing: -0.03em; }
+    .lead { max-width: 760px; color: var(--muted); line-height: 1.55; margin: 0 0 28px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+    .card { background: rgba(255,255,255,0.9); border: 1px solid rgba(64,58,44,0.12); border-radius: 22px; padding: 20px; box-shadow: 0 12px 28px rgba(73,55,27,0.08); }
+    .canvas { min-height: 210px; border-radius: 18px; border: 1px solid var(--grid); background: #fcfbf9; position: relative; overflow: hidden; }
+    .point-map::before { content:""; position:absolute; inset:0; background:linear-gradient(90deg, rgba(53,91,122,0.08) 1px, transparent 1px) 0 0 / 48px 48px, linear-gradient(rgba(53,91,122,0.08) 1px, transparent 1px) 0 0 / 48px 48px; }
+    .point-ring { position:absolute; left:50%; top:50%; width:118px; height:118px; border-radius:999px; border:2px dashed rgba(19,90,138,0.24); transform:translate(-50%,-50%); }
+    .point-marker { position:absolute; left:50%; top:50%; width:58px; height:58px; transform:translate(-50%,-50%); filter: drop-shadow(0 10px 14px rgba(17,17,17,0.18)); }
+    .line-map { display:flex; align-items:center; justify-content:center; padding:0 14px; }
+    .line-track { width:100%; height:5px; background: var(--accent); border-radius:999px; position:relative; }
+    .line-icons { position:absolute; inset:-18px 0 auto 0; display:flex; justify-content:space-evenly; align-items:center; }
+    .line-icon { width:28px; height:28px; }
+    .polygon-map { background:linear-gradient(90deg, rgba(35,82,47,0.07) 1px, transparent 1px) 0 0 / 42px 42px, linear-gradient(rgba(35,82,47,0.07) 1px, transparent 1px) 0 0 / 42px 42px, #f7faf5; padding:22px; }
+    .polygon-shape { width:100%; min-height:166px; border-radius:28px 42px 34px 20px; background: rgba(47,127,79,0.12); border:2px solid rgba(47,127,79,0.4); display:grid; grid-template-columns:repeat(6, 1fr); gap:12px; padding:18px; align-content:start; }
+    .pattern-icon { width:26px; height:26px; justify-self:center; }
+    code { font-family: ui-monospace, "SFMono-Regular", monospace; font-size: 0.92rem; }
+    ul { margin: 14px 0 0 18px; padding: 0; color: var(--muted); line-height: 1.55; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Geosiana QGIS Pack V2 Test Cases</h1>
+    <p class="lead">Preview ini khusus untuk paket siap-upload. Semua path sudah disesuaikan ke struktur folder paket, sehingga folder ini bisa langsung dipindah ke repo lain tanpa perlu mengedit referensi file lagi.</p>
+    <div class="grid">
+      <section class="card">
+        <h2>Point</h2>
+        <p class="lead" style="margin-bottom:14px;">SVG marker tunggal untuk layer titik.</p>
+        <div class="canvas point-map"><div class="point-ring"></div><img class="point-marker" src="../svg/geosiana-marker_extra/u0032-two.svg" alt="Point marker"></div>
+        <ul><li><code>svg/geosiana-marker_extra/u0032-two.svg</code></li><li>Gunakan sebagai SVG marker langsung pada layer titik.</li><li>Cocok untuk POI, lokasi dokumentasi, atau titik fasilitas.</li></ul>
+      </section>
+      <section class="card">
+        <h2>Line</h2>
+        <p class="lead" style="margin-bottom:14px;">Marker line memakai SVG berulang di atas garis utama.</p>
+        <div class="canvas line-map"><div class="line-track"><div class="line-icons"><img src="../svg/geosiana-marker_default/u007D-braceright.svg" alt="Line" class="line-icon"/><img src="../svg/geosiana-marker_default/u007D-braceright.svg" alt="Line" class="line-icon"/><img src="../svg/geosiana-marker_default/u007D-braceright.svg" alt="Line" class="line-icon"/><img src="../svg/geosiana-marker_default/u007D-braceright.svg" alt="Line" class="line-icon"/><img src="../svg/geosiana-marker_default/u007D-braceright.svg" alt="Line" class="line-icon"/><img src="../svg/geosiana-marker_default/u007D-braceright.svg" alt="Line" class="line-icon"/><img src="../svg/geosiana-marker_default/u007D-braceright.svg" alt="Line" class="line-icon"/><img src="../svg/geosiana-marker_default/u007D-braceright.svg" alt="Line" class="line-icon"/><img src="../svg/geosiana-marker_default/u007D-braceright.svg" alt="Line" class="line-icon"/></div></div></div>
+        <ul><li><code>svg/geosiana-marker_default/u007D-braceright.svg</code></li><li>Gunakan pada Marker line, aktifkan rotate marker to follow line direction.</li><li>Cocok untuk sungai, arus, jalur evakuasi, atau arah sirkulasi.</li></ul>
+      </section>
+      <section class="card">
+        <h2>Polygon</h2>
+        <p class="lead" style="margin-bottom:14px;">SVG fill atau point pattern fill untuk area.</p>
+        <div class="canvas polygon-map"><div class="polygon-shape"><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/><img src="../svg/geosiana-marker_forestry/u0042-b.svg" alt="Polygon" class="pattern-icon"/></div></div>
+        <ul><li><code>svg/geosiana-marker_forestry/u0042-b.svg</code></li><li>Gunakan pada SVG fill atau Point pattern fill untuk polygon.</li><li>Cocok untuk kawasan vegetasi, ruang terbuka hijau, atau area tematik.</li></ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

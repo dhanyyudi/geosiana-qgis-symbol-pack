@@ -1,0 +1,40 @@
+geometry_type,category,style_name,qgis_strategy,stroke_color,stroke_width_mm,stroke_pattern,fill_color,outline_color,outline_width_mm,marker_symbol,marker_interval_mm,tags,notes
+line,batas-administrasi,Batas Negara,Simple line + Marker line,#111111,1.2,10;2;3;2,,,,Batas Administrasi - Kotak Bertitik,6,"batas-administrasi, line, untuk-line",Gunakan line hitam tebal dengan marker line dari symbol batas bertitik.
+line,batas-administrasi,Batas Provinsi,Simple line,#111111,0.9,8;2;1;2,,,,,,"batas-administrasi, line, untuk-line",Pola putus titik hitam untuk provinsi.
+line,batas-administrasi,Batas Kabupaten,Simple line,#111111,0.7,6;2;1;2,,,,,,"batas-administrasi, line, untuk-line",Pola putus titik lebih ringan.
+line,batas-administrasi,Batas Kecamatan,Simple line,#222222,0.6,5;2,,,,,,"batas-administrasi, line, untuk-line",Pola garis putus sedang.
+line,batas-administrasi,Batas Desa,Simple line,#333333,0.5,3;2,,,,,,"batas-administrasi, line, untuk-line",Pola garis putus rapat.
+line,perhubungan,Jalan,Simple line,#e84c3d,1.4,,,,,,,"jalan, perhubungan, line, untuk-line",Garis merah solid.
+line,perhubungan,Jalan Setapak,Simple line,#6d6d6d,0.5,3;2,,,,,,"jalan, perhubungan, line, untuk-line",Garis putus tipis.
+line,perhubungan,Jalan Kereta Api Rangkap,Simple line + Marker line,#111111,0.8,,,,,Jalan - Batang Vertikal,5,"perhubungan, kereta, line, untuk-line",Padukan garis utama dengan marker line batang vertikal.
+line,perhubungan,Jalan Kereta Api Tunggal,Simple line + Marker line,#111111,0.6,,,,,Jalan - Batang Vertikal,9,"perhubungan, kereta, line, untuk-line",Interval marker lebih renggang dari rel rangkap.
+line,perairan,Garis Pantai,Simple line,#2f91c3,0.8,,,,,,,"perairan, line, untuk-line",Gunakan biru laut sedang.
+line,perairan,Sungai,Simple line,#49aee8,0.9,,,,,,,"perairan, line, untuk-line",Garis biru muda untuk sungai.
+line,perairan,Sungai Musiman,Simple line,#49aee8,0.7,4;2,,,,,,"perairan, line, untuk-line",Versi putus-putus untuk sungai musiman.
+line,perairan,Saluran Irigasi / Drainase,Simple line,#357edb,0.8,,,,,,,"perairan, line, untuk-line",Biru lebih tegas untuk drainase/irigasi.
+line,utilitas,Drainase Teknis,Simple line + Marker line,#357edb,0.8,,,,,Utilitas - Target Hollow,8,"utilitas, drainase, line, untuk-line",Opsional pakai marker hollow untuk segmen tertentu.
+polygon,perairan,Kolam / Danau / Waduk,Simple fill,,,,#9ed9ff,#4ea6d8,0.4,,,,"perairan, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Permukiman,Simple fill,,,,#d8a37b,#8f7157,0.25,,,,"penggunaan-lahan, permukiman, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Perkantoran,Simple fill,,,,#d4b59d,#8b725f,0.25,,,,"penggunaan-lahan, perkantoran, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Pendidikan,Simple fill,,,,#efe0b8,#9b8d63,0.25,,,,"penggunaan-lahan, pendidikan, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Perdagangan dan Jasa,Simple fill,,,,#f3c6cf,#9a7a82,0.25,,,,"penggunaan-lahan, perdagangan, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Industri dan Pergudangan,Simple fill,,,,#f9b08d,#9d6b58,0.25,,,,"penggunaan-lahan, industri, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Peribadatan,Simple fill,,,,#f6b6c6,#9c7380,0.25,,,,"penggunaan-lahan, peribadatan, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Kesehatan,Simple fill,,,,#f0a6b3,#9a6772,0.25,,,,"penggunaan-lahan, kesehatan, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Olahraga,Simple fill,,,,#f6d77d,#9c874b,0.25,,,,"penggunaan-lahan, olahraga, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Sosial Budaya,Simple fill,,,,#f6b156,#9b6f3e,0.25,,,,"penggunaan-lahan, sosial-budaya, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Pariwisata,Simple fill,,,,#d5a4ea,#866398,0.25,,,,"penggunaan-lahan, pariwisata, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Telekomunikasi,Simple fill,,,,#ffc35c,#a17432,0.25,,,,"penggunaan-lahan, telekomunikasi, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Energi,Simple fill,,,,#d8dd5b,#8b8f36,0.25,,,,"penggunaan-lahan, energi, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Hankam,Simple fill,,,,#8b8b8b,#4b4b4b,0.25,,,,"penggunaan-lahan, hankam, polygon, untuk-polygon"
+polygon,penggunaan-lahan,LT Pemakaman,Simple fill,,,,#7d7d7d,#454545,0.25,,,,"penggunaan-lahan, pemakaman, polygon, untuk-polygon"
+polygon,non-terbangun,LTT Hutan,Simple fill,,,,#bcd9a2,#7d9a61,0.25,,,,"non-terbangun, hutan, polygon, untuk-polygon"
+polygon,non-terbangun,LTT Perkebunan / Kebun,Simple fill,,,,#c6ef91,#86a75b,0.25,,,,"non-terbangun, kebun, polygon, untuk-polygon"
+polygon,non-terbangun,LTT Sawah,Point pattern fill,,,,#dff7b7,#8ab26b,0.2,Vegetasi - Daun,12,"non-terbangun, sawah, polygon, untuk-polygon",Gunakan fill hijau muda dengan pattern marker daun ringan.
+polygon,non-terbangun,LTT Tegalan / Ladang,Simple fill,,,,#d7f2a6,#8aaa67,0.25,,,,"non-terbangun, tegalan, polygon, untuk-polygon"
+polygon,non-terbangun,LTT Kebun Campur,Simple fill,,,,#b9f08f,#7ca05f,0.25,,,,"non-terbangun, kebun-campur, polygon, untuk-polygon"
+polygon,non-terbangun,LTT Rumput,Point pattern fill,,,,#cbf2a7,#85a865,0.2,Vegetasi - Daun,10,"non-terbangun, rumput, polygon, untuk-polygon",Padukan fill hijau terang dengan pattern marker daun yang renggang.
+polygon,non-terbangun,LTT Semak Belukar,Point pattern fill,,,,#b8ef7f,#7aa154,0.2,Vegetasi - Pohon Bulat,12,"non-terbangun, semak-belukar, polygon, untuk-polygon",Gunakan pohon bulat kecil sebagai pattern ringan.
+polygon,non-terbangun,LTT Hutan Rawa / Bakau,Point pattern fill,,,,#9ed89c,#5f9161,0.2,Vegetasi - Flora Air / Lotus,12,"non-terbangun, bakau, rawa, polygon, untuk-polygon",Fill hijau kebiruan dengan pattern flora air.
+polygon,non-terbangun,LTT Tambak,Simple fill,,,,#6ed0b5,#3b8f7c,0.25,,,,"non-terbangun, tambak, polygon, untuk-polygon"
+polygon,non-terbangun,LTT Lahan Terbuka,Simple fill,,,,#ffffff,#666666,0.25,,,,"non-terbangun, lahan-terbuka, polygon, untuk-polygon"
