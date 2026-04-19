@@ -6,6 +6,15 @@ Folder ini adalah output tunggal dan paket siap-upload. Semua aset penting dikum
 
 Pengguna repo publik nanti bisa memilih salah satu cara ini:
 
+### Opsi Paling Mudah: Download Release ZIP
+
+Jika tersedia halaman `Releases` di GitHub, pengguna paling mudah cukup:
+
+1. Buka halaman `Releases`.
+2. Pilih release terbaru.
+3. Download file ZIP asset paket.
+4. Extract ZIP, lalu buka folder hasil extract.
+
 ### 1. Clone dengan Git
 
 ```bash
@@ -50,6 +59,11 @@ Kalau pengguna baru pertama kali membuka repo ini, urutan yang paling aman:
 3. Import `style-packs/geosiana-curated-v2-embedded.xml` ke `Style Manager` QGIS.
 4. Jika butuh symbol garis dan area, import juga `style-packs/geosiana-line-fill-starter.xml`.
 5. Jika ingin mengecek hasil cepat di luar QGIS, buka `test-cases/test-cases.html` di browser.
+
+## Rekomendasi Distribusi
+
+- Untuk pengguna umum: arahkan ke `Releases` agar mereka tinggal download ZIP.
+- Untuk pengguna teknis: arahkan ke clone repo jika mereka ingin melihat struktur file, catalog, dan preview secara lengkap.
 
 ## Struktur Folder
 
