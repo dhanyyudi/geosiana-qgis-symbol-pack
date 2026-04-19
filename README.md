@@ -8,7 +8,13 @@ Pengguna tidak perlu menginstal font TTF asli untuk memakai pack XML yang ada di
 
 Pilihan paling mudah:
 
-- Download release ZIP dari halaman [Releases](https://github.com/dhanyyudi/geosiana-qgis-symbol-pack/releases)
+- Buka halaman [Release v1.0.0](https://github.com/dhanyyudi/geosiana-qgis-symbol-pack/releases/tag/v1.0.0)
+- Unduh asset `geosiana-qgis-symbol-pack-v1.0.0.zip`
+- Jika perlu verifikasi file unduhan, unduh juga `geosiana-qgis-symbol-pack-v1.0.0.sha256`
+
+Halaman semua release:
+
+- [Releases](https://github.com/dhanyyudi/geosiana-qgis-symbol-pack/releases)
 
 Pilihan lain:
 
